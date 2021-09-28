@@ -1,0 +1,128 @@
+.mobile-content {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.menu-content {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 400ms;
+    transform: translateY(-100px);
+}
+.menu-content.active {
+    opacity: 1;
+    visibility: initial;
+    transform: translateY(0);
+}
+
+/*Burger-Menu*/
+
+.menu-open {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.menu-open span {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+.menu-open span:before, .menu-open span:after {
+    position: absolute;
+    content: '';
+}
+.menu-open span, .menu-open span:before, .menu-open span:after {
+    width: 30px;
+    height: 2px;
+    background-color: #FFF0A5;
+    display: block;
+}
+.menu-open span:before {
+    margin-top: -13px;
+}
+.menu-open span:after {
+    margin-top: 13px;
+}
+
+/*Fake-Trigger*/
+.menu-open {
+    color:transparent;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+
+.close {
+    color: #468966;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 999999;
+}
+
+.close:hover,
+.close:focus {
+    color: #B64926;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.menu-content .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+.menu-content .animated {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.menu-content .modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+
+/*Navigation Inner Styling*/
+
+.menu-content .nav ul li{
+    display: block;
+}
+
+.menu-content .nav ul{
+    width: 100%;
+}
+
+.modal-body {
+    padding: 0;
+    overflow-y: auto;
+}
+.modal-body .nav {
+    padding: 50px 0;
+}

@@ -1,0 +1,158 @@
+@-webkit-keyframes circular {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg)
+    }
+}
+
+@keyframes circular {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg)
+    }
+}
+
+@media (max-width:1200px) {
+    .back-to-top {
+        bottom: 290px;
+        right: 26px;
+    }
+    /*.society__group {
+        bottom: 164px;
+    }*/
+
+    .popups-title-regis {
+        left: 15px
+    }
+    .page-thanks-site h1 {
+        font-size: 110px
+    }
+    .page-thanks-site h2 {
+        font-size: 26px
+    }
+    .page-thanks-site h3 {
+        font-size: 18px
+    }
+}
+
+/*@media (min-width: 768px) and (max-width:1199px) {
+
+    .home-site .art-about-us .title {
+        text-align: right;
+    }
+
+}*/
+
+@media (max-width:1199px) {
+    .header-main .groups-box .groups-box {
+        margin: 0 -5px
+    }
+    .user-box {
+        padding: 0 5px
+    }
+    .user-box .user-box-title .btn {
+        padding: 0 15px
+    }
+    .search-box {
+        padding: 0 5px
+    }
+    .megamenu a {
+        font-style: 14px
+    }
+}
+
+@media (max-width:991px) {
+    .menu-content {
+        -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    .megamenu-mobile {
+        margin-left: 0
+    }
+    .popups-title-regis {
+        width: 70px
+    }
+    .header-main .groups-box .groups-box {
+        margin: 0 -7px
+    }
+    .search-box,
+    .user-box {
+        padding: 0 7px
+    }
+    .page-thanks-site h1 {
+        font-size: 80px
+    }
+    .page-thanks-site h2 {
+        font-size: 20px
+    }
+    .page-thanks-site h3 {
+        font-size: 14px
+    }
+
+    .eaqs-site .att-sidebars {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width:767px) {
+    .popups-content {
+        padding: 48px 50px 90px
+    }
+    .page-thanks-site h1 {
+        font-size: 70px
+    }
+    .search-box .search-box-content {
+        right: -90px
+    }
+    .art-popups-dang-nhap .button a {
+        color: #000
+    }
+}
+
+@media (max-width:575px) {
+    .title {
+        font-size: 24px!important
+    }
+    .popups-content {
+        padding: 48px 15px 90px
+    }
+    .search-box .search-box-content {
+        right: -166px;
+        min-width: 310px
+    }
+    .page-404-site .btn {
+        padding: 10px 20px
+    }
+}
+
+@media (max-width:479px) {
+    .page-thanks-site h1 {
+        font-size: 40px
+    }
+    .page-thanks-site h2 {
+        font-size: 18px
+    }
+    .page-thanks-site h3 {
+        font-size: 14px
+    }
+    .page-thanks-site .logos-box img {
+        max-width: 120px
+    }
+    .popups-content .contacts-form .form-control {
+        font-size: 14px;
+        padding: 10px 15px
+    }
+}

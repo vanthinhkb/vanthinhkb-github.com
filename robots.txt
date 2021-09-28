@@ -1,0 +1,5 @@
+﻿User-agent: *
+Disallow: /login/
+Disallow: /backend/
+Disallow: /backend/home
+Sitemap: http://hichemvn.com/sitemap.xml

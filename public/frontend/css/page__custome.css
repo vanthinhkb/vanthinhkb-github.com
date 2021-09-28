@@ -1,0 +1,645 @@
+main.main-manage .section-manage__banner img {
+    width: 100%
+}
+
+main.main-manage .page-manage {
+    padding-top: 32px;
+    position: relative;
+    padding-bottom: 90px
+}
+
+main.main-manage .page-manage .page-manage__header:after {
+    content: "";
+    width: 100vw;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #b8b8b8
+}
+
+main.main-manage .page-manage .page-manage__header .meange__title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0e773c;
+    margin-bottom: 11px
+}
+
+main.main-manage .page-manage .page-manage__body .group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: initial;
+    flex-wrap: initial
+}
+
+main.main-manage .page-manage .page-manage__body .group .item:first-child {
+    padding-top: 35px;
+    max-width: 368px;
+    width: 100%;
+    border-right: 1px solid #959595
+}
+
+main.main-manage .page-manage .page-manage__body .group .item:first-child .btn.btn__show {
+    display: none
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__sidebar li {
+    display: block;
+    color: #5b5b5b;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #959595;
+    font-weight: 400;
+    cursor: pointer
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__sidebar li:last-child {
+    border-bottom: 0
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__sidebar li.active {
+    color: #0e773c
+}
+
+main.main-manage .page-manage .page-manage__body .group .item:last-child {
+    padding-left: 31px;
+    padding-top: 50px;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content input,
+main.main-manage .page-manage .page-manage__body .group .item .manage__content select {
+    border-color: #959595;
+    height: 30px;
+    font-size: 15px
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content label {
+    margin-bottom: 0
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 calc(15px * (-1)) 54px
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item {
+    margin: 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item label {
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 15px;
+    color: #5b5b5b;
+    font-weight: 700
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item input {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item.btn.btn__search {
+    max-width: 88px;
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    background-color: #0e773c;
+    text-align: center;
+    padding: 0;
+    display: block;
+    white-space: nowrap;
+    border: 1px solid #0e773c
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item.btn.btn__search:hover {
+    opacity: 0.7
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item:nth-child(2) input,
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item:nth-child(3) input {
+    max-width: 100px
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table {
+    margin-bottom: 0
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table thead tr th {
+    color: #0e773c;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 0.75rem 9px;
+    border-bottom: 2px solid #278550
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table tbody tr td,
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table tbody tr th {
+    font-size: 15px;
+    color: #5b5b5b;
+    font-weight: 500;
+    border-top: 0;
+    padding: 20px 0.75rem
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table tbody tr:first-child td,
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table tbody tr:first-child th {
+    padding-top: 40px
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table tbody tr:last-child td,
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__table .table tbody tr:last-child th {
+    padding-bottom: 0
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .manage__title {
+    font-size: 20px;
+    color: #5b5b5b;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .sex__group {
+    --marginSex: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .sex__group label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .sex__group label+label {
+    margin-left: var(--marginSex)
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .sex__group label input {
+    display: none
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .sex__group label input:checked~.cheked__sex {
+    border-color: #0e773c;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(14, 119, 60, 0.459);
+    box-shadow: 0px 0px 4px 1px rgba(14, 119, 60, 0.459)
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .sex__group label .cheked__sex {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: solid 3px #afafaf;
+    border-radius: 50%;
+    margin-right: 14px
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .birth__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .birth__group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")!important;
+    background-repeat: no-repeat;
+    background-position-x: 100%!important;
+    background-position-y: 3px!important;
+    line-height: 30px!important;
+    cursor: pointer;
+    width: calc(100% / 3 - calc(2 * 10px));
+    min-width: auto
+}
+
+main.main-manage .page-manage .page-manage__body .group .item .manage__content .form-control {
+    border: 1px solid #959595;
+    padding: 0 10px
+}
+
+main.main-manage .page-manage .page-manage__body .cus__text {
+    text-align: right
+}
+
+main.main-manage .page-manage .page-manage__body .btn.btn__up {
+    margin-top: 110px;
+    border-radius: 0;
+    background-color: #0e773c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 125px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #0e773c
+}
+
+main.main-manage .page-manage .page-manage__body .btn.btn__up:hover {
+    opacity: 0.7
+}
+
+main .desktop {
+    display: block
+}
+
+main .mobile {
+    display: none
+}
+
+.addon-notification {
+    max-width: 366px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    overflow: hidden;
+    height: 90px;
+    border-radius: 20px;
+    z-index: 999999;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(64, 120, 61, 0.129);
+    box-shadow: 0px 0px 15px 1px rgba(64, 120, 61, 0.129);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-transform: translateX(-120%);
+    -ms-transform: translateX(-120%);
+    transform: translateX(-120%)
+}
+
+.addon-notification.active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.addon-notification .addon__cols {
+    background-color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    width: auto;
+    height: auto;
+    color: #000;
+    padding: 0;
+    border: 0;
+    font-size: 25px;
+    cursor: pointer
+}
+
+.addon-notification .addon__cols:hover {
+    color: red
+}
+
+.addon-notification .group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 12px 24px
+}
+
+.addon-notification .group .group__item.group__avata {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc
+}
+
+.addon-notification .group .group__item.group__avata img {
+    width: 60px;
+    height: 60px;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.addon-notification .group .group__item.group__content {
+    padding-left: 17px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.addon-notification .group .group__item.group__content .addon__title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #0e773c
+}
+
+.addon-notification .group .group__item.group__content .addon__desc {
+    font-size: 12px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 17px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical
+}
+
+#accordion {
+    margin-top: 48px
+}
+
+#accordion .card {
+    border-radius: 0;
+    border-bottom: 1px solid #fff
+}
+
+#accordion .card:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125)
+}
+
+#accordion .card .card-header {
+    padding: 0;
+    border-radius: 0
+}
+
+#accordion .card .card-header:first-child {
+    border-radius: 0
+}
+
+#accordion .card .card-header .btn.btn-link {
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    text-align: left;
+    background-color: #dedede;
+    border: 0px;
+    color: #333333;
+    border-radius: 0;
+    padding: 8px 25px;
+    background-color: #3aae49;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+#accordion .card .card-header .btn.btn-link:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+#accordion .card .card-header .btn.btn-link:hover {
+    text-decoration: none
+}
+
+#accordion .card .card-header .btn.btn-link.collapsed {
+    background-color: #dedede;
+    color: #333333;
+    position: relative
+}
+
+#accordion .card .card-header .btn.btn-link.collapsed:after {
+    border-top: 5px solid #000;
+    border-bottom: 0
+}
+
+@media (max-width:1199.98px) {
+    main.main-manage .page-manage .page-manage__body .group .item:first-child {
+        max-width: 230px;
+        min-width: 230px
+    }
+}
+
+@media (max-width:991.98px) {
+    main.main-manage .table-responsive-lg {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar
+    }
+    main.main-manage .table-responsive-lg .table {
+        min-width: 700px
+    }
+    main.main-manage .page-manage .page-manage__header {
+        display: none
+    }
+    main.main-manage .page-manage .page-manage__header:after {
+        display: none
+    }
+    main.main-manage .page-manage .page-manage__header .meange__title {
+        background-color: #0e773c;
+        margin-bottom: 0;
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 22px
+    }
+    main.main-manage .page-manage .page-manage__header .meange__title.control__show {
+        position: relative
+    }
+    main.main-manage .page-manage .page-manage__header .meange__title.control__show.active:before {
+        border-bottom: 8px solid white;
+        border-top: 0
+    }
+    main.main-manage .page-manage .page-manage__header .meange__title.control__show:before {
+        content: "";
+        position: absolute;
+        top: 44%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 8px solid white;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent
+    }
+    main.main-manage .page-manage .page-manage__body {
+        border-top: 0
+    }
+    main.main-manage .page-manage .page-manage__body .group {
+        position: relative;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    main.main-manage .page-manage .page-manage__body .group .item:first-child {
+        max-width: 100%;
+        border: 0;
+        padding-top: 0
+    }
+    main.main-manage .page-manage .page-manage__body .group .item:first-child .manage__sidebar {
+        margin-bottom: 0
+    }
+    main.main-manage .page-manage .page-manage__body .group .item:first-child .manage__sidebar li {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        line-height: 49px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #ebedf0;
+        color: #000;
+        border-bottom: 1px solid #fff
+    }
+    main.main-manage .page-manage .page-manage__body .group .item:first-child .manage__sidebar li .active {
+        color: #fff;
+        background-color: #278550
+    }
+    main.main-manage .page-manage .page-manage__body .group .item:last-child {
+        padding: 30px 15px
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 50px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item {
+        margin-bottom: 10px;
+        width: calc(100% / 2 - 30px)!important;
+        display: block
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item:first-child {
+        width: 100%!important
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item input {
+        max-width: unset!important
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .control__filter .filter__item.btn.btn__search {
+        margin: 10px auto
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .birth__group {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin: -10px
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .birth__group select {
+        margin: 0 10px;
+        width: calc(100% / 3 - calc(2 * 10px));
+        min-width: auto
+    }
+    main.main-manage .page-manage .page-manage__body .btn.btn__up {
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+    main.main-manage .page-manage .page-manage__body .cus__text {
+        text-align: center
+    }
+    main .desktop {
+        display: none
+    }
+    main .mobile {
+        display: block
+    }
+    main .mobile #accordion {
+        margin: -30px -15px
+    }
+    main .mobile #accordion .btn-link {
+        font-size: 20px!important
+    }
+}
+
+@media (max-width:767.98px) {
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .sex__group {
+        --marginSex: 40px
+    }
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content label {
+        margin-bottom: 10px
+    }
+}
+
+@media (max-width:479.98px) {
+    main.main-manage .page-manage .page-manage__body .group .item .manage__content .birth__group select {
+        width: 100%;
+        margin-bottom: 1rem
+    }
+    #accordion .card .card-header .btn.btn-link {
+        padding-left: 10px
+    }
+    #accordion .card .card-header .btn.btn-link:after {
+        right: 10px
+    }
+}
